@@ -15,6 +15,9 @@
 		302E8DD0269360B4007D029C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 302E8DCE269360B4007D029C /* LaunchScreen.storyboard */; };
 		302E8DDB269360B5007D029C /* JSONPerformanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302E8DDA269360B5007D029C /* JSONPerformanceTests.swift */; };
 		302E8DE6269360B5007D029C /* JSONPerformanceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302E8DE5269360B5007D029C /* JSONPerformanceUITests.swift */; };
+		4A69E14A87F8AE5694B14C63 /* Pods_JSONPerformanceTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A863F3A8D3D9D9D434E9693E /* Pods_JSONPerformanceTests.framework */; };
+		59F159B42175F11667618C47 /* Pods_JSONPerformance_JSONPerformanceUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F27B4D17676485E276AF0F54 /* Pods_JSONPerformance_JSONPerformanceUITests.framework */; };
+		AEE9953E8DE73CB1A32F8C4E /* Pods_JSONPerformance.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9F18EA8447074A7AFE305E6 /* Pods_JSONPerformance.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		16B8FF16673D665D6B9CED3C /* Pods-JSONPerformanceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSONPerformanceTests.release.xcconfig"; path = "Target Support Files/Pods-JSONPerformanceTests/Pods-JSONPerformanceTests.release.xcconfig"; sourceTree = "<group>"; };
 		302E8DC0269360B4007D029C /* JSONPerformance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSONPerformance.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		302E8DC3269360B4007D029C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		302E8DC5269360B4007D029C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +53,14 @@
 		302E8DE1269360B5007D029C /* JSONPerformanceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSONPerformanceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		302E8DE5269360B5007D029C /* JSONPerformanceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONPerformanceUITests.swift; sourceTree = "<group>"; };
 		302E8DE7269360B5007D029C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91F7C2444CAC4D18D8322CA8 /* Pods-JSONPerformance.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSONPerformance.debug.xcconfig"; path = "Target Support Files/Pods-JSONPerformance/Pods-JSONPerformance.debug.xcconfig"; sourceTree = "<group>"; };
+		9B9C543E710B12CD9A26412A /* Pods-JSONPerformance-JSONPerformanceUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSONPerformance-JSONPerformanceUITests.debug.xcconfig"; path = "Target Support Files/Pods-JSONPerformance-JSONPerformanceUITests/Pods-JSONPerformance-JSONPerformanceUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A863F3A8D3D9D9D434E9693E /* Pods_JSONPerformanceTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JSONPerformanceTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC45713096D633022F78D949 /* Pods-JSONPerformanceTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSONPerformanceTests.debug.xcconfig"; path = "Target Support Files/Pods-JSONPerformanceTests/Pods-JSONPerformanceTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CECEDB1C9DF68F265B43E363 /* Pods-JSONPerformance.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSONPerformance.release.xcconfig"; path = "Target Support Files/Pods-JSONPerformance/Pods-JSONPerformance.release.xcconfig"; sourceTree = "<group>"; };
+		F27B4D17676485E276AF0F54 /* Pods_JSONPerformance_JSONPerformanceUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JSONPerformance_JSONPerformanceUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F48A768881C54939C0003DF0 /* Pods-JSONPerformance-JSONPerformanceUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSONPerformance-JSONPerformanceUITests.release.xcconfig"; path = "Target Support Files/Pods-JSONPerformance-JSONPerformanceUITests/Pods-JSONPerformance-JSONPerformanceUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F9F18EA8447074A7AFE305E6 /* Pods_JSONPerformance.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JSONPerformance.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEE9953E8DE73CB1A32F8C4E /* Pods_JSONPerformance.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A69E14A87F8AE5694B14C63 /* Pods_JSONPerformanceTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59F159B42175F11667618C47 /* Pods_JSONPerformance_JSONPerformanceUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +98,8 @@
 				302E8DD9269360B5007D029C /* JSONPerformanceTests */,
 				302E8DE4269360B5007D029C /* JSONPerformanceUITests */,
 				302E8DC1269360B4007D029C /* Products */,
+				72CE5BDDD00509D37409EE40 /* Pods */,
+				E4D05B68F1872EC2A3BDAD74 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +145,30 @@
 			path = JSONPerformanceUITests;
 			sourceTree = "<group>";
 		};
+		72CE5BDDD00509D37409EE40 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				91F7C2444CAC4D18D8322CA8 /* Pods-JSONPerformance.debug.xcconfig */,
+				CECEDB1C9DF68F265B43E363 /* Pods-JSONPerformance.release.xcconfig */,
+				9B9C543E710B12CD9A26412A /* Pods-JSONPerformance-JSONPerformanceUITests.debug.xcconfig */,
+				F48A768881C54939C0003DF0 /* Pods-JSONPerformance-JSONPerformanceUITests.release.xcconfig */,
+				AC45713096D633022F78D949 /* Pods-JSONPerformanceTests.debug.xcconfig */,
+				16B8FF16673D665D6B9CED3C /* Pods-JSONPerformanceTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E4D05B68F1872EC2A3BDAD74 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F9F18EA8447074A7AFE305E6 /* Pods_JSONPerformance.framework */,
+				F27B4D17676485E276AF0F54 /* Pods_JSONPerformance_JSONPerformanceUITests.framework */,
+				A863F3A8D3D9D9D434E9693E /* Pods_JSONPerformanceTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +176,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 302E8DEA269360B5007D029C /* Build configuration list for PBXNativeTarget "JSONPerformance" */;
 			buildPhases = (
+				D5D707E7E43C86CD071A0673 /* [CP] Check Pods Manifest.lock */,
 				302E8DBC269360B4007D029C /* Sources */,
 				302E8DBD269360B4007D029C /* Frameworks */,
 				302E8DBE269360B4007D029C /* Resources */,
+				6B00CCF73491BCE73887A26B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,9 +195,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 302E8DED269360B5007D029C /* Build configuration list for PBXNativeTarget "JSONPerformanceTests" */;
 			buildPhases = (
+				7120A1CC866DDA5822A035F8 /* [CP] Check Pods Manifest.lock */,
 				302E8DD2269360B5007D029C /* Sources */,
 				302E8DD3269360B5007D029C /* Frameworks */,
 				302E8DD4269360B5007D029C /* Resources */,
+				A06426355EC41B7D80A2C56B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -170,9 +215,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 302E8DF0269360B5007D029C /* Build configuration list for PBXNativeTarget "JSONPerformanceUITests" */;
 			buildPhases = (
+				40FAAF47AA210E64751E86D7 /* [CP] Check Pods Manifest.lock */,
 				302E8DDD269360B5007D029C /* Sources */,
 				302E8DDE269360B5007D029C /* Frameworks */,
 				302E8DDF269360B5007D029C /* Resources */,
+				EA367CE5A414F0D6AB703C20 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,6 +299,126 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		40FAAF47AA210E64751E86D7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JSONPerformance-JSONPerformanceUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B00CCF73491BCE73887A26B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JSONPerformance/Pods-JSONPerformance-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JSONPerformance/Pods-JSONPerformance-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JSONPerformance/Pods-JSONPerformance-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7120A1CC866DDA5822A035F8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JSONPerformanceTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A06426355EC41B7D80A2C56B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JSONPerformanceTests/Pods-JSONPerformanceTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JSONPerformanceTests/Pods-JSONPerformanceTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JSONPerformanceTests/Pods-JSONPerformanceTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5D707E7E43C86CD071A0673 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JSONPerformance-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA367CE5A414F0D6AB703C20 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JSONPerformance-JSONPerformanceUITests/Pods-JSONPerformance-JSONPerformanceUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JSONPerformance-JSONPerformanceUITests/Pods-JSONPerformance-JSONPerformanceUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JSONPerformance-JSONPerformanceUITests/Pods-JSONPerformance-JSONPerformanceUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		302E8DBC269360B4007D029C /* Sources */ = {
@@ -433,6 +600,7 @@
 		};
 		302E8DEB269360B5007D029C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91F7C2444CAC4D18D8322CA8 /* Pods-JSONPerformance.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -451,6 +619,7 @@
 		};
 		302E8DEC269360B5007D029C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CECEDB1C9DF68F265B43E363 /* Pods-JSONPerformance.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -469,6 +638,7 @@
 		};
 		302E8DEE269360B5007D029C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC45713096D633022F78D949 /* Pods-JSONPerformanceTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +660,7 @@
 		};
 		302E8DEF269360B5007D029C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16B8FF16673D665D6B9CED3C /* Pods-JSONPerformanceTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -511,6 +682,7 @@
 		};
 		302E8DF1269360B5007D029C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B9C543E710B12CD9A26412A /* Pods-JSONPerformance-JSONPerformanceUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -530,6 +702,7 @@
 		};
 		302E8DF2269360B5007D029C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F48A768881C54939C0003DF0 /* Pods-JSONPerformance-JSONPerformanceUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

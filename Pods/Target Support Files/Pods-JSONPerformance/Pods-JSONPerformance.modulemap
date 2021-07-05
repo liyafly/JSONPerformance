@@ -1,0 +1,6 @@
+framework module Pods_JSONPerformance {
+  umbrella header "Pods-JSONPerformance-umbrella.h"
+
+  export *
+  module * { export * }
+}
