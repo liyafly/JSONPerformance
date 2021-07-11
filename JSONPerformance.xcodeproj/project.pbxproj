@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,21 +14,20 @@
 		302E8DCD269360B4007D029C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 302E8DCC269360B4007D029C /* Assets.xcassets */; };
 		302E8DD0269360B4007D029C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 302E8DCE269360B4007D029C /* LaunchScreen.storyboard */; };
 		302E8DDB269360B5007D029C /* JSONPerformanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302E8DDA269360B5007D029C /* JSONPerformanceTests.swift */; };
-		302E8DE6269360B5007D029C /* JSONPerformanceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302E8DE5269360B5007D029C /* JSONPerformanceUITests.swift */; };
+		302E8DF926993FB7007D029C /* JSONFileLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302E8DF326993FB7007D029C /* JSONFileLoader.swift */; };
+		302E8DFA26993FB7007D029C /* airports1.json in Resources */ = {isa = PBXBuildFile; fileRef = 302E8DF426993FB7007D029C /* airports1.json */; };
+		302E8DFB26993FB7007D029C /* airports10.json in Resources */ = {isa = PBXBuildFile; fileRef = 302E8DF526993FB7007D029C /* airports10.json */; };
+		302E8DFC26993FB7007D029C /* airports100.json in Resources */ = {isa = PBXBuildFile; fileRef = 302E8DF626993FB7007D029C /* airports100.json */; };
+		302E8DFD26993FB7007D029C /* airports1000.json in Resources */ = {isa = PBXBuildFile; fileRef = 302E8DF726993FB7007D029C /* airports1000.json */; };
+		302E8DFE26993FB7007D029C /* airports10000.json in Resources */ = {isa = PBXBuildFile; fileRef = 302E8DF826993FB7007D029C /* airports10000.json */; };
+		302E8E0026994090007D029C /* Airport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302E8DFF26994090007D029C /* Airport.swift */; };
+		302E8E02269942BD007D029C /* HandyAirport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302E8E01269942BD007D029C /* HandyAirport.swift */; };
 		4A69E14A87F8AE5694B14C63 /* Pods_JSONPerformanceTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A863F3A8D3D9D9D434E9693E /* Pods_JSONPerformanceTests.framework */; };
-		59F159B42175F11667618C47 /* Pods_JSONPerformance_JSONPerformanceUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F27B4D17676485E276AF0F54 /* Pods_JSONPerformance_JSONPerformanceUITests.framework */; };
 		AEE9953E8DE73CB1A32F8C4E /* Pods_JSONPerformance.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9F18EA8447074A7AFE305E6 /* Pods_JSONPerformance.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		302E8DD7269360B5007D029C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 302E8DB8269360B4007D029C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 302E8DBF269360B4007D029C;
-			remoteInfo = JSONPerformance;
-		};
-		302E8DE2269360B5007D029C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 302E8DB8269360B4007D029C /* Project object */;
 			proxyType = 1;
@@ -50,9 +49,16 @@
 		302E8DD6269360B5007D029C /* JSONPerformanceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSONPerformanceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		302E8DDA269360B5007D029C /* JSONPerformanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONPerformanceTests.swift; sourceTree = "<group>"; };
 		302E8DDC269360B5007D029C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		302E8DE1269360B5007D029C /* JSONPerformanceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSONPerformanceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		302E8DE5269360B5007D029C /* JSONPerformanceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONPerformanceUITests.swift; sourceTree = "<group>"; };
 		302E8DE7269360B5007D029C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		302E8DF326993FB7007D029C /* JSONFileLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONFileLoader.swift; sourceTree = "<group>"; };
+		302E8DF426993FB7007D029C /* airports1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = airports1.json; sourceTree = "<group>"; };
+		302E8DF526993FB7007D029C /* airports10.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = airports10.json; sourceTree = "<group>"; };
+		302E8DF626993FB7007D029C /* airports100.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = airports100.json; sourceTree = "<group>"; };
+		302E8DF726993FB7007D029C /* airports1000.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = airports1000.json; sourceTree = "<group>"; };
+		302E8DF826993FB7007D029C /* airports10000.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = airports10000.json; sourceTree = "<group>"; };
+		302E8DFF26994090007D029C /* Airport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Airport.swift; sourceTree = "<group>"; };
+		302E8E01269942BD007D029C /* HandyAirport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandyAirport.swift; sourceTree = "<group>"; };
 		91F7C2444CAC4D18D8322CA8 /* Pods-JSONPerformance.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSONPerformance.debug.xcconfig"; path = "Target Support Files/Pods-JSONPerformance/Pods-JSONPerformance.debug.xcconfig"; sourceTree = "<group>"; };
 		9B9C543E710B12CD9A26412A /* Pods-JSONPerformance-JSONPerformanceUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSONPerformance-JSONPerformanceUITests.debug.xcconfig"; path = "Target Support Files/Pods-JSONPerformance-JSONPerformanceUITests/Pods-JSONPerformance-JSONPerformanceUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		A863F3A8D3D9D9D434E9693E /* Pods_JSONPerformanceTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JSONPerformanceTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -80,14 +86,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		302E8DDE269360B5007D029C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				59F159B42175F11667618C47 /* Pods_JSONPerformance_JSONPerformanceUITests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -108,7 +106,6 @@
 			children = (
 				302E8DC0269360B4007D029C /* JSONPerformance.app */,
 				302E8DD6269360B5007D029C /* JSONPerformanceTests.xctest */,
-				302E8DE1269360B5007D029C /* JSONPerformanceUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -120,9 +117,11 @@
 				302E8DC5269360B4007D029C /* SceneDelegate.swift */,
 				302E8DC7269360B4007D029C /* ViewController.swift */,
 				302E8DC9269360B4007D029C /* Main.storyboard */,
+				302E8DFF26994090007D029C /* Airport.swift */,
 				302E8DCC269360B4007D029C /* Assets.xcassets */,
 				302E8DCE269360B4007D029C /* LaunchScreen.storyboard */,
 				302E8DD1269360B4007D029C /* Info.plist */,
+				302E8E01269942BD007D029C /* HandyAirport.swift */,
 			);
 			path = JSONPerformance;
 			sourceTree = "<group>";
@@ -131,6 +130,12 @@
 			isa = PBXGroup;
 			children = (
 				302E8DDA269360B5007D029C /* JSONPerformanceTests.swift */,
+				302E8DF426993FB7007D029C /* airports1.json */,
+				302E8DF526993FB7007D029C /* airports10.json */,
+				302E8DF626993FB7007D029C /* airports100.json */,
+				302E8DF726993FB7007D029C /* airports1000.json */,
+				302E8DF826993FB7007D029C /* airports10000.json */,
+				302E8DF326993FB7007D029C /* JSONFileLoader.swift */,
 				302E8DDC269360B5007D029C /* Info.plist */,
 			);
 			path = JSONPerformanceTests;
@@ -155,7 +160,6 @@
 				AC45713096D633022F78D949 /* Pods-JSONPerformanceTests.debug.xcconfig */,
 				16B8FF16673D665D6B9CED3C /* Pods-JSONPerformanceTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -211,26 +215,6 @@
 			productReference = 302E8DD6269360B5007D029C /* JSONPerformanceTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		302E8DE0269360B5007D029C /* JSONPerformanceUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 302E8DF0269360B5007D029C /* Build configuration list for PBXNativeTarget "JSONPerformanceUITests" */;
-			buildPhases = (
-				40FAAF47AA210E64751E86D7 /* [CP] Check Pods Manifest.lock */,
-				302E8DDD269360B5007D029C /* Sources */,
-				302E8DDE269360B5007D029C /* Frameworks */,
-				302E8DDF269360B5007D029C /* Resources */,
-				EA367CE5A414F0D6AB703C20 /* [CP] Embed Pods Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				302E8DE3269360B5007D029C /* PBXTargetDependency */,
-			);
-			name = JSONPerformanceUITests;
-			productName = JSONPerformanceUITests;
-			productReference = 302E8DE1269360B5007D029C /* JSONPerformanceUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -244,10 +228,6 @@
 						CreatedOnToolsVersion = 12.5.1;
 					};
 					302E8DD5269360B5007D029C = {
-						CreatedOnToolsVersion = 12.5.1;
-						TestTargetID = 302E8DBF269360B4007D029C;
-					};
-					302E8DE0269360B5007D029C = {
 						CreatedOnToolsVersion = 12.5.1;
 						TestTargetID = 302E8DBF269360B4007D029C;
 					};
@@ -268,7 +248,6 @@
 			targets = (
 				302E8DBF269360B4007D029C /* JSONPerformance */,
 				302E8DD5269360B5007D029C /* JSONPerformanceTests */,
-				302E8DE0269360B5007D029C /* JSONPerformanceUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -288,41 +267,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		302E8DDF269360B5007D029C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				302E8DFB26993FB7007D029C /* airports10.json in Resources */,
+				302E8DFC26993FB7007D029C /* airports100.json in Resources */,
+				302E8DFD26993FB7007D029C /* airports1000.json in Resources */,
+				302E8DFA26993FB7007D029C /* airports1.json in Resources */,
+				302E8DFE26993FB7007D029C /* airports10000.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		40FAAF47AA210E64751E86D7 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-JSONPerformance-JSONPerformanceUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		6B00CCF73491BCE73887A26B /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -401,23 +356,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		EA367CE5A414F0D6AB703C20 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-JSONPerformance-JSONPerformanceUITests/Pods-JSONPerformance-JSONPerformanceUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-JSONPerformance-JSONPerformanceUITests/Pods-JSONPerformance-JSONPerformanceUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JSONPerformance-JSONPerformanceUITests/Pods-JSONPerformance-JSONPerformanceUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -426,6 +364,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				302E8DC8269360B4007D029C /* ViewController.swift in Sources */,
+				302E8E0026994090007D029C /* Airport.swift in Sources */,
+				302E8E02269942BD007D029C /* HandyAirport.swift in Sources */,
 				302E8DC4269360B4007D029C /* AppDelegate.swift in Sources */,
 				302E8DC6269360B4007D029C /* SceneDelegate.swift in Sources */,
 			);
@@ -435,15 +375,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				302E8DF926993FB7007D029C /* JSONFileLoader.swift in Sources */,
 				302E8DDB269360B5007D029C /* JSONPerformanceTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		302E8DDD269360B5007D029C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				302E8DE6269360B5007D029C /* JSONPerformanceUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -454,11 +387,6 @@
 			isa = PBXTargetDependency;
 			target = 302E8DBF269360B4007D029C /* JSONPerformance */;
 			targetProxy = 302E8DD7269360B5007D029C /* PBXContainerItemProxy */;
-		};
-		302E8DE3269360B5007D029C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 302E8DBF269360B4007D029C /* JSONPerformance */;
-			targetProxy = 302E8DE2269360B5007D029C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -680,46 +608,6 @@
 			};
 			name = Release;
 		};
-		302E8DF1269360B5007D029C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9B9C543E710B12CD9A26412A /* Pods-JSONPerformance-JSONPerformanceUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = JSONPerformanceUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = liyafly.JSONPerformanceUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = JSONPerformance;
-			};
-			name = Debug;
-		};
-		302E8DF2269360B5007D029C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F48A768881C54939C0003DF0 /* Pods-JSONPerformance-JSONPerformanceUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = JSONPerformanceUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = liyafly.JSONPerformanceUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = JSONPerformance;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -746,15 +634,6 @@
 			buildConfigurations = (
 				302E8DEE269360B5007D029C /* Debug */,
 				302E8DEF269360B5007D029C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		302E8DF0269360B5007D029C /* Build configuration list for PBXNativeTarget "JSONPerformanceUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				302E8DF1269360B5007D029C /* Debug */,
-				302E8DF2269360B5007D029C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
